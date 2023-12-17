@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo yum docker -y
+sudo yum install docker -y
