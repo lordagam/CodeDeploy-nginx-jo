@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: docker/alpine-minirootfs-3.17.6-x86_64.tar.gz
-    destination: /tep
+  - source: /index.html
+    destination: /var/www/html/
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies.sh
