@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-docker stop nginx-jo
+docker stop nginx-
 #docker rm nginx-jo
 
 
