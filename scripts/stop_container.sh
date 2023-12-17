@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 docker stop nginx
-docker rm nginx
+docker rm -f nginx
 
 
 # Name of the container you want to stop
