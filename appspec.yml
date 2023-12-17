@@ -5,9 +5,6 @@ hooks:
     - location: scripts/install_dependencies.sh
       timeout: 300
       runas: root
-    - location: scripts/check_and_pull_image.sh
-      timeout: 300
-      runas: root
   AfterInstall:
     - location: scripts/start_container.sh
       timeout: 300
