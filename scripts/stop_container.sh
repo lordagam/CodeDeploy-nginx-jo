@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker rm -f nginx-jo
+docker rm nginx-jo
